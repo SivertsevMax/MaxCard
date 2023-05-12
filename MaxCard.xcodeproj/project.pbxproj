@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1372F2862A0E37AC000AA319 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1372F2852A0E37AC000AA319 /* ContactView.swift */; };
 		13DE796A2A0D45C9006FF176 /* MaxCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DE79692A0D45C9006FF176 /* MaxCardApp.swift */; };
 		13DE796C2A0D45C9006FF176 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DE796B2A0D45C9006FF176 /* ContentView.swift */; };
 		13DE796E2A0D45CB006FF176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DE796D2A0D45CB006FF176 /* Assets.xcassets */; };
 		13DE79722A0D45CB006FF176 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DE79712A0D45CB006FF176 /* Preview Assets.xcassets */; };
+		13DE797A2A0D4AE6006FF176 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13DE79792A0D4AE6006FF176 /* Pacifico-Regular.ttf */; };
+		13DE797C2A0D4BD0006FF176 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DE797B2A0D4BD0006FF176 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1372F2852A0E37AC000AA319 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		13DE79662A0D45C9006FF176 /* MaxCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13DE79692A0D45C9006FF176 /* MaxCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxCardApp.swift; sourceTree = "<group>"; };
 		13DE796B2A0D45C9006FF176 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13DE796D2A0D45CB006FF176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13DE796F2A0D45CB006FF176 /* MaxCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MaxCard.entitlements; sourceTree = "<group>"; };
 		13DE79712A0D45CB006FF176 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13DE79792A0D4AE6006FF176 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		13DE797B2A0D4BD0006FF176 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		13DE797D2A0D4DF9006FF176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +59,14 @@
 		13DE79682A0D45C9006FF176 /* MaxCard */ = {
 			isa = PBXGroup;
 			children = (
+				13DE797D2A0D4DF9006FF176 /* Info.plist */,
+				13DE79782A0D4AD3006FF176 /* Fonts */,
 				13DE79692A0D45C9006FF176 /* MaxCardApp.swift */,
 				13DE796B2A0D45C9006FF176 /* ContentView.swift */,
+				1372F2852A0E37AC000AA319 /* ContactView.swift */,
 				13DE796D2A0D45CB006FF176 /* Assets.xcassets */,
 				13DE796F2A0D45CB006FF176 /* MaxCard.entitlements */,
+				13DE797B2A0D4BD0006FF176 /* Launch Screen.storyboard */,
 				13DE79702A0D45CB006FF176 /* Preview Content */,
 			);
 			path = MaxCard;
@@ -67,6 +78,14 @@
 				13DE79712A0D45CB006FF176 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13DE79782A0D4AD3006FF176 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				13DE79792A0D4AE6006FF176 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13DE797A2A0D4AE6006FF176 /* Pacifico-Regular.ttf in Resources */,
 				13DE79722A0D45CB006FF176 /* Preview Assets.xcassets in Resources */,
+				13DE797C2A0D4BD0006FF176 /* Launch Screen.storyboard in Resources */,
 				13DE796E2A0D45CB006FF176 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13DE796C2A0D45C9006FF176 /* ContentView.swift in Sources */,
+				1372F2862A0E37AC000AA319 /* ContactView.swift in Sources */,
 				13DE796A2A0D45C9006FF176 /* MaxCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = MaxCard/MaxCard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -269,6 +292,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaxCard/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -277,8 +301,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -287,10 +311,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "sivertsev1995-icloud.com.MaxCard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = MaxCard/MaxCard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -307,6 +334,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaxCard/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -315,8 +343,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -325,10 +353,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "sivertsev1995-icloud.com.MaxCard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
